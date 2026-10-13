@@ -1,0 +1,16 @@
+{
+  "name": "cravr",
+  "version": "2.0.0",
+  "description": "CRAVR restaurant directory with MongoDB CRUD and aggregation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "import-data": "node import-data.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.22.2",
+    "mongodb": "^7.5.0"
+  }
+}
