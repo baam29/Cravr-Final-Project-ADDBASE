@@ -626,8 +626,8 @@ td button {
   line-height: 1.25;
   letter-spacing: -0.5px;
   overflow-wrap: anywhere;
-  margin-bottom: 12px;
-  min-height: 55px;
+  margin-bottom: 3px;
+  min-height: 0;
 }
 .card-address {
   font-size: 11px;
@@ -1144,4 +1144,11 @@ footer .footer-brand .logo {
     width: 43px;
     height: 63px;
   }
+}
+
+.card-description {
+  margin-top: 0;
+  color: #78756f;
+  font-size: 13px;
+  line-height: 1.75;
 }
